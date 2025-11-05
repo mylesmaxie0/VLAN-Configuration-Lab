@@ -37,3 +37,44 @@ Devices used:
 
 4. Running Configuration
 <img width="850" height="631" alt="Screenshot 2025-11-05 at 1 43 16 PM" src="https://github.com/user-attachments/assets/dd22bb35-fbc6-462f-a97d-8ec5512a66fa" />
+
+#
+
+### Test Connectivity
+
+#### Ping PC inside VLAN 10 (Success!)
+<img width="1152" height="536" alt="Screenshot 2025-11-05 at 1 54 21 PM" src="https://github.com/user-attachments/assets/51d0dc8d-70c4-4edc-9351-619d500fad41" />
+
+#### Ping PC from VLAN 10 -> VLAN 20 (Failed!)
+<img width="1209" height="560" alt="Screenshot 2025-11-05 at 1 57 16 PM" src="https://github.com/user-attachments/assets/10df9d18-96d0-4700-854d-95ddf1d0a439" />
+
+## Summary
+
+This VLAN lab successfully demonstrated how to configure and verify multiple VLANs on a single Cisco switch using Cisco Packet Tracer.  
+
+Through this exercise, the following key objectives were achieved:
+
+- **VLAN Creation:**  
+  VLANs 10 (Sales), 20 (Marketing), 30 (Finance), and 40 (IT) were created and properly named.
+
+- **Port Assignment:**  
+  Specific switch ports were configured as access ports and assigned to their respective VLANs.
+
+- **IP Addressing:**  
+  Each VLAN was allocated its own subnet with appropriate IP addresses for connected devices.
+
+- **Connectivity Verification:**  
+  - Devices **within the same VLAN** communicated successfully using `ping`.  
+  - Devices **in different VLANs** were unable to communicate, confirming VLAN isolation.
+
+- **Concept Reinforcement:**  
+  The lab reinforced key concepts of network segmentation, broadcast domain isolation, and access port configuration at Layer 2.
+
+### Key Takeaways
+- VLANs separate broadcast traffic, improving security and network performance.  
+- Access ports belong to a single VLAN and are used for end devices.  
+- Inter-VLAN communication requires a Layer 3 device (e.g., router-on-a-stick or Layer 3 switch).  
+- Proper IP addressing and port mapping are critical for successful VLAN design.
+
+
+This foundational VLAN lab provides a baseline for understanding how Layer 2 segmentation works before progressing to more advanced multi-switch and routing configurations.
