@@ -8,7 +8,7 @@ There is no trunking or inter-VLAN routing in this scenario — each VLAN operat
 
 Devices used:
 - 1 Cisco Switch
-- 8 PCs (2 per VLAN)
+- 10 PCs 
 
 ### Topology
 <img width="1728" height="775" alt="Screenshot 2025-11-05 at 1 24 39 PM" src="https://github.com/user-attachments/assets/043edd41-8f14-4350-95ee-0abd0f117a33" />
